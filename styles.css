@@ -1,0 +1,12 @@
+.big-box {
+  display: flex;   /* turn on flexbox */
+  border: 2px solid black;
+  color: brown;
+}
+
+.small-box {
+  width: 50px;
+  height: 50px;
+  background: lightblue;
+  margin: 5px;
+}
