@@ -19,9 +19,13 @@ nav {
   align-items: center;
   padding: 2rem 1rem;
   gap: 2rem;
+  background-color: #1F2937;
+  color: white;
 }
-.text, .image {
+.text {
   flex: 1;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 28px;
 }
 
 .image {
@@ -33,4 +37,65 @@ nav {
   width: 100%;
   max-width: 400px;
   border-radius: 10px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+/* Serivce */
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-top: 5%;
+}
+
+/* row of items */
+.categories {
+  display: flex;
+  justify-content: center; /* center the whole row */
+  gap: 40px;               /* space between each item */
+  padding: 0 20px;
+  padding-bottom: 10%;
+}
+
+/* each box + label stacked vertically */
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center caption under box */
+  gap: 10px;           /* vertical gap between box and caption */
+}
+
+/* box style (was service1..4) */
+.box {
+  width: 200px;
+  height: 100px;
+  border: 2px solid #000;
+  background: #fff; /* change if you want color */
+}
+
+/* caption style */
+.caption {
+  margin: 0;
+  font-size: 14px;
+  color: #222;
+  text-align: center;
+}
+
+.quote {
+  text-align: center;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #E5E7EB;
+}
+
+.action {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
